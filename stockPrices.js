@@ -20,4 +20,21 @@ let best = (arr) => {
 console.log(best([7, 9, 5, 6, 3, 2]));
 
 
+// function best (arr) {
+//     // console.log(Math.max(...arr))
+//     let profitArr = []
+//     while(arr.length > 0){
+//         // console.log(arr.length)
+//         // console.log(Math.max(...arr), ',', arr[0])
+//         if(Math.max(...arr) - arr[0] > 0){
+//             profitArr.push(Math.max(...arr) - arr[0])
+//         } else {
+//             profitArr.push(0)
+//         }
+//         // console.log(profitArr)
+//         arr.shift()
+//         // console.log(arr)
+//     }
 
+//     console.log(Math.max(...profitArr))
+// }
